@@ -4,7 +4,7 @@
 int main(void)
 {
 	double num, result;
-	printf("km¸¦ ÀÔ·Â: ");
+	printf("kmë¥¼ ìž…ë ¥: ");
 	scanf("%lf", &num);
 
 	result = 0.621371 * num;
