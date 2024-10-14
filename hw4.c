@@ -4,13 +4,13 @@
 int main(void) {
 	int a,b,c,d=0;
 	
-	printf("¾çÀÇ Á¤¼ö ÀÔ·Â: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%d", &a);
 
 	for (b = 1; b <= a; b++) {
 		for (c = 1; c <= b; c++) {
 			if (d > 2) {
-				printf("¡°It is not a prime number.");
+				printf("It is not a prime number.");
 			}
 			if (b % c == 0) {
 				d += 1;
