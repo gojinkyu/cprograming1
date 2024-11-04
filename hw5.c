@@ -15,7 +15,7 @@ void binary(int n)
 int main(void)
 {
 	int num;
-	printf("Á¤¼öÀÔ·Â: ");
+	printf("ì •ìˆ˜ì…ë ¥: ");
 	scanf("%d", &num);
 
 	binary(num);
