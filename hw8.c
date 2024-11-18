@@ -8,10 +8,10 @@ int main()
 {
     int i;
     float data[5];
-    printf("5°³ÀÇ ¿ä¼Ò ÀÔ·Â: ");
+    printf("5ê°œ ì‹¤ìˆ˜ ìž…ë ¥: ");
     for (i = 0; i < 5; ++i)
         scanf("%f", &data[i]);
-    printf("\nÇ¥ÁØ ÆíÂ÷ = %.6f", calculateSD(data));
+    printf("\ní‘œì¤€ íŽ¸ì°¨ = %.6f", calculateSD(data));
     return 0;
 }
 
